@@ -1,0 +1,13 @@
+variant: fcos
+version: 1.2.0
+passwd:
+  users:
+  - name: core
+    ssh_authorized_keys:
+    - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDPw6Fp7E6dDjeFNWSyloWcAaMDxo9CxrsDiwyg67gA1ANmLPO4yVWiceI/vfdhev/dT8NBHuN8CP3U9HLNTUN4Y/QpG47PqXSn4+zHpyeW0QuYER5KO32qr5QoxdPyVZybYEZ9rajw+0Zln/0a91yP2pYOcQi4gcgI+5aWBysKyx6kftC3Qid5XY4n0yEIbuggvDt4r4bCRDoXctzseCtjphj9glrhqQs9xldWE5GXIEbszfaBtiw9R2ZGPDAdXTA94KTH7/39CuuVP2xPGjI2QrWE7AcFya4u3R1oBuEHxnPSWxFI7houVyoHtdwuVq+jgqf2c4wswJMovyLaStlf adam.kaplan@redhat.com
+storage:
+  files:
+  - path: /etc/hostname
+    mode: 0644
+    contents:
+      inline: k3s001-kaplan
